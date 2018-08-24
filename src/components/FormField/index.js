@@ -14,7 +14,7 @@ FormField.propTypes = {
     value: PropTypes.number.isRequired,
     stateKey: PropTypes.string,
     label: PropTypes.string.isRequired,
-    handleChange: PropTypes.func.isRequired,
+    handleChange: PropTypes.func,
     readOnly: PropTypes.bool.isRequired
 }
 
